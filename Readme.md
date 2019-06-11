@@ -1,6 +1,7 @@
 # E-liquid-related posts to Twitter in 2018: Thematic Analysis
 
 This project attempts to gain insights about the usage of E-Juices, using tweets mentioning the product.
+The full notebook can be viewed [here](https://nbviewer.jupyter.org/github/JonAllem/TwitterEjuice/blob/master/Source/Analysis.ipynb) using Jupyter's notebook viewer.
 
 ## Data Preparation
 
