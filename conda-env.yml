@@ -1,0 +1,11 @@
+name: base
+dependencies:
+  - plotly
+  - conda-forge::wordcloud
+  - conda-forge::spacy
+  - conda-forge::gensim
+  - jupyter
+  - pandas
+  - nltk
+  - pip:
+    - langid

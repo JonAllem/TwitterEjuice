@@ -1,0 +1,17 @@
+version: '3'
+services:
+  devenv:
+    container_name: e-juice-analysis
+    image: e-juice-analysis
+    build:
+      context: ../
+      dockerfile: ./Docker/DOCKERFILE
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    environment:
+      - WORK_DIR=/home/project
+    volumes:
+      - ../Data:/home/project/data
+      - ../Source:/home/project/source
+      - ../../../Resources:/home/project/resources
